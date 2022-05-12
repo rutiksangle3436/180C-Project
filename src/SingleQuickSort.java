@@ -73,7 +73,7 @@ public static void main(String[] args)
 
 	System.out.println("Sorted array: ");
 	printArray(arr, n);
-    System.out.println(String.format("%f [msec]", (end - start) / 1000000.0));
+    System.out.println(String.format("%f [msec]", (end - start) / 100000.0));
 
 }
 }
